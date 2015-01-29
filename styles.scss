@@ -1,0 +1,153 @@
+html {
+  padding: 0%;
+  background-color: white;
+}
+
+header h1{
+  font-size: 25px;
+}
+header p{
+  font-size: 20px;
+}
+hr { display: block; height: 1px;
+  border: 0; border-top: 1px solid #ccc;
+  margin: 1em 0; padding: 0; width: 90%;}
+
+body {
+  display: inline-block;
+  margin: 0%;
+  padding: 0;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+}
+
+nav {
+  background: #f5f5f5;
+  width: 80%;
+  border: 1px dotted lightgray;
+  text-align: left;
+  padding-left: 275px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-top: 10px;
+  margin: 0px;
+  display: inline-flex;
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  text-align: center;
+}
+nav li {
+  display:inline-block;
+  margin-left:10px;
+  color: black;
+}
+
+nav a {
+
+  display:block;
+  color: white;
+
+}
+form {
+  padding-left: 8px;
+}
+.logos {
+ display: inline-block;
+ padding-left:375px;
+ padding-right: 0px;
+ margin: 0px;
+}
+.logos ul {
+  text-align: right;
+}
+.logos li {
+  text-align: right;
+}
+.textBox {
+  border: 2px solid gray;
+  margin: 10px;
+  padding: 20px;
+}
+section, aside {
+  display:inline-block;
+  vertical-align: top;
+
+}
+
+section {
+  width: 45%;
+  margin: 10px;
+}
+.nav2 {
+  background: #f5f5f5;
+  border: 1px dotted lightgray;
+  padding: 0px;
+  margin: 0px;
+  display: inline-flex;
+  width: 80%;
+  list-style-type: none;
+  text-align: right;
+
+}
+.nav2 ul {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  text-align: right;
+
+
+}
+.nav2 li {
+  padding: 10px;
+  margin: 0px;
+  text-align: right;
+}
+aside {
+  width: 20%;
+}
+aside ul {
+  list-style-type:none;
+  align: center;
+  margin: 0px;
+  padding-top:10px;
+  padding-bottom:0;
+  padding-left:0;
+  padding-right:0;
+
+}
+aside li {
+  align: center;
+  padding: 4px;
+}
+
+aside img {
+  width: 225px;
+  height: 225px;
+  border-radius: 3%;
+  padding: 0px;
+  margin: 10px;
+  margin-top: 20px;
+  display: block;
+}
+aside h1 {
+  text-align: left;
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+aside h2 {
+  text-align: left;
+  padding: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: gray;
+  font-size: 20px;
+}
